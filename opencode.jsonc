@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "name": "opencode-harness",
+  "description": "80+ agents, 260+ skills, 35+ commands for OpenCode",
+  "skills": {
+    "paths": ["skills"]
+  },
+  "agent": {},
+  "command": {}
+}
