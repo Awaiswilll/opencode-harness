@@ -1,0 +1,39 @@
+{
+  "name": "opencode-harness",
+  "version": "2.0.0-rc.1",
+  "description": "OpenCode AI Agent Harness — 80+ agents, 260+ skills, 35+ commands. Drop-in productivity boost for OpenCode, Claude Code, Cursor, and Codex.",
+  "keywords": ["opencode", "claude-code", "cursor", "codex", "ai-agents", "ai-coding", "developer-tools", "ecc"],
+  "homepage": "https://github.com/Awaiswilll/opencode-harness#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awaiswilll/opencode-harness.git"
+  },
+  "license": "MIT",
+  "author": "Awaiswilll",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "opencode-harness-install": "./scripts/install.js",
+    "opencode-harness-link": "./scripts/link.js"
+  },
+  "files": [
+    "agents/",
+    "skills/",
+    "config/",
+    "scripts/",
+    "index.js",
+    "README.md"
+  ],
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js",
+    "setup": "node scripts/install.js",
+    "link": "node scripts/link.js"
+  },
+  "dependencies": {
+    "opencode-plugin-openspec": "^1.0.0",
+    "opkg": "^0.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

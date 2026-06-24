@@ -1,0 +1,44 @@
+name: opencode-harness
+version: 2.0.0-rc.1
+description: "80+ AI agents, 260+ domain skills, 35+ slash commands — categorized and ready to plug into OpenCode, Claude Code, Cursor, Codex"
+license: MIT
+author: Awaiswilll
+homepage: https://github.com/Awaiswilll/opencode-harness
+
+platforms:
+  - opencode
+  - claudecode
+  - cursor
+
+agents:
+  - agents/build-and-fix/*.md
+  - agents/business/*.md
+  - agents/code-review/*.md
+  - agents/creative-design/*.md
+  - agents/engineering-workflow/*.md
+  - agents/healthcare/*.md
+  - agents/misc/*.md
+  - agents/ml-ai/*.md
+  - agents/mobile/*.md
+  - agents/networking/*.md
+  - agents/opensource/*.md
+  - agents/personal-productivity/*.md
+  - agents/security/*.md
+
+skills:
+  - skills/engineering/**/SKILL.md
+  - skills/frontend/**/SKILL.md
+  - skills/backend/**/SKILL.md
+  - skills/languages/**/SKILL.md
+  - skills/mobile/**/SKILL.md
+  - skills/data-science/**/SKILL.md
+  - skills/database/**/SKILL.md
+  - skills/security/**/SKILL.md
+  - skills/design/**/SKILL.md
+  - skills/network-infra/**/SKILL.md
+  - skills/business/**/SKILL.md
+  - skills/tools-platforms/**/SKILL.md
+  - skills/misc/**/SKILL.md
+
+commands:
+  - commands/*.md
